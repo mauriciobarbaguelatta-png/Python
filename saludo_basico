@@ -1,0 +1,3 @@
+print("hola,Como te llamas?")
+nombre = input()
+print("Hola",nombre, "Bienvenido a Python")
