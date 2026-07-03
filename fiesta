@@ -1,0 +1,8 @@
+print("Hola bienvenido a la fiesta")
+edad = int(input("¿Cual es su edad?: "))
+if edad < 17 or edad == 17:
+  print("No pueden entrar menores de edad a la fiesta")
+elif edad == 18:
+  print("Adelante, Bienvenido a la fiesta")
+elif edad > 18:
+    print("Adelante, Bienvenido a la fiesta")
