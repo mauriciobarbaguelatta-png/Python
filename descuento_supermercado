@@ -1,0 +1,10 @@
+total_compra = int(input("Valor de la compra: $"))
+print("--------------------------")
+
+if total_compra >= 20000:
+  print("*Tienes un 20% de descuento")
+if total_compra >= 20000:
+  print(f"*Tu descuento fue de: ${total_compra*0.2}")
+  print(f"*Lo pagado fue de: ${total_compra - (total_compra*0.2)}")
+elif total_compra <20000:
+  print(f"*Lo pagado fue de: ${total_compra}")
