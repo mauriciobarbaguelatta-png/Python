@@ -1,0 +1,28 @@
+total_ventas = 0
+
+while True:
+
+  print("Menu Supermercado")
+  print("1.Agregar productos: ")
+  print("2.Total de compra: ")
+  print("3.Pagar")
+
+  opcion = int(input("Elige una opción: "))
+
+  if opcion == 1:
+    producto = int(input("Ingrese el valor del producto a pagar: "))
+    total_ventas = total_ventas + producto
+    print()
+    pass
+  elif opcion == 2:
+    print("Total de compra: $", total_ventas)
+    print()
+    pass
+  elif opcion == 3:
+    print("Gracias por su compra")
+    print()
+    break
+  else:
+    print("Error, intenta de nuevo")
+    print()
+    pass
